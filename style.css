@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightcyan;
+
+}
+#container {
+    display: inline-grid;
+    grid-template-columns: (repeat, 16, 2fr);
+    grid-template-rows: (repeat, 16, 2fr);
+    margin: auto;
+    border: 3px solid black;
+    height: 550px;
+    width: 550px;
+}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+}
+
+#buttonContainer{
+    margin: auto;
+
+}
+.square {
+    background-color: white;
+    border: 1px solid;
+    border-color: black;
+    margin: auto;
+    height: 10px;
+    width: 10px;
+}
+.color {
+    background-color: black;
+    border: 1px solid black;
+    margin: 0px;
+    height: 10px;
+    width: 10px;
+}
